@@ -1,0 +1,84 @@
+p {
+  font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+.profile {
+  width: 200px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.bio {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.bio-text {
+  width: 200px;
+}
+
+.profile-picture {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 12px;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 8px;
+  margin-bottom: 4px;
+  text-align: center;
+}
+
+.add-friend-button {
+  background-color: rgb(24, 119, 242);
+  color: white;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 4px;
+  font-size: 16px;
+  text-align: center;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 15px;
+  transition: opacity 0.15s;
+  cursor: pointer;
+}
+.add-friend-button:hover {
+  opacity: 0.7;
+}
+.add-friend-button:active {
+  opacity: 0.5;
+}
+.button-link {
+  text-decoration: none;
+}
+
+.link-site {
+  text-decoration: none;
+  margin-right: 10px;
+  color: black;
+}
+.link-site:visited {
+}
+
+.link-site:hover {
+}
+
+.link-site:active {
+}
