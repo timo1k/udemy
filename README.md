@@ -4,4 +4,4 @@
 
 Creating a simple HTML CSS website and adding the skills I learn as I go!
 
-Finished Product Should be a Trendy Personal Website
+Finished Product Should be a Personal Website
