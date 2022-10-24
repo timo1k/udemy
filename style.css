@@ -1,45 +1,58 @@
-p {
-  font-family: Arial;
-  margin-top: 0;
-  margin-bottom: 0;
+body {
+  margin: 0;
+  text-align: center;
+  font-family: monospace, Arial, sans-serif;
+  color: #e8dfca;
+  background-color: #393e46;
 }
-
 h1 {
   margin: 0;
 }
 
-.profile {
+.pro {
+  text-decoration: underline;
+}
+.top-container {
+  position: relative;
+  padding-top: 40px;
+}
+.bio-text {
+  text-align: center;
+  width: 400px;
+  display: inline-block;
+}
+.btn {
+  color: #e8dfca;
+}
+.footer-link {
+  color: #e8dfca;
+}
+
+.footer-link:active {
+  color: #e8dfca;
+}
+.project-box {
   width: 200px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
   display: inline-block;
   margin-right: 15px;
 }
-
-.bio {
-  display: inline-block;
-  vertical-align: top;
-}
-
-.bio-text {
-  width: 200px;
-}
-
-.profile-picture {
+.project-picture {
   width: 200px;
   height: 200px;
   object-fit: cover;
   margin-bottom: 12px;
 }
-
-.name {
+.line {
+  color: #e8dfca;
+}
+.name-project {
   font-size: 18px;
   font-weight: bold;
-  margin-left: 8px;
-  margin-bottom: 4px;
   text-align: center;
+  display: inline-block;
 }
-
-.add-button {
+.project-button {
   background-color: rgb(24, 119, 242);
   color: white;
   border: none;
@@ -59,26 +72,15 @@ h1 {
   transition: opacity 0.15s;
   cursor: pointer;
 }
-.add-friend-button:hover {
+.project-button:hover {
   opacity: 0.7;
 }
-.add-friend-button:active {
+.project-button:active {
   opacity: 0.5;
 }
 .button-link {
   text-decoration: none;
 }
-
-.link-site {
-  text-decoration: none;
-  margin-right: 10px;
-  color: black;
-}
-.link-site:visited {
-}
-
-.link-site:hover {
-}
-
-.link-site:active {
+.title-pad {
+  margin: 0;
 }
